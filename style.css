@@ -1,0 +1,186 @@
+.antialiased {
+    background-color: darkcyan;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(13, 80, 80);
+    opacity: 0;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    z-index: 20px;
+}
+
+/* Untuk memunculkan tombol */
+.back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+}
+  
+.back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: darkcyan;
+}
+
+.nav-item > a {
+    color: black;
+}
+
+.nav-item > a:hover {
+    color: darkcyan;
+}
+
+.container-biodata-diri {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.judul {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.potret-wajah {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.potret-wajah > img {
+    width: 220px;
+    height: 280px;
+    text-align: center;
+}
+
+.container-biodata-diri > p {
+    text-align: center;
+}
+
+.list-biodata {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.container-biodata-diri > p > a {
+    text-decoration: none;
+    color: rgb(54, 33, 105);
+    transition: 0.3s;
+}
+
+.container-biodata-diri > p > a:hover {
+    color: white;
+    transform: scale(1.03);
+    font-style:oblique;
+}
+
+.projek {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.garis-spasi {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+}
+
+.card > a {
+    text-decoration: none;
+}
+
+.card > a:hover {
+    color: white;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: aqua;
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(2, 110, 110);
+}
+
+.footerr {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.belah-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-kiri {
+    width: 50%;
+    height: 100%;
+}
+
+.footer-kiri > p {
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+.footer-kanan {
+    width: 50%;
+    height: 100%;
+}
+
+.footer-kanan > p {
+    text-align: center;
+    color: black;
+    margin: auto;
+}
