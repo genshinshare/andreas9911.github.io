@@ -1,2 +1,2 @@
-# andreas9911.github.io
-Web Genshin Build
+# Note
+Ini adalah web untuk biodata diri saya.
