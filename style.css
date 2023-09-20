@@ -1,186 +1,106 @@
-.antialiased {
-    background-color: darkcyan;
-    color: white;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.back-to-top {
-    position: fixed;
-    right: 5px;
-    bottom: -40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    background-color: rgb(13, 80, 80);
-    opacity: 0;
-    border-radius: 50%;
-    transition: .2s ease-in-out;
-    z-index: 20px;
-}
-
-/* Untuk memunculkan tombol */
-.back-to-top.show {
-    bottom: 20px;
-    opacity: 1;
-}
-  
-.back-to-top svg {
-    width: 20px;
-    height: 20px;
-    fill: none;
-    stroke: white;
-    stroke-width: 3px;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-}
-
 .navbar-brand {
-    color: black;
+    color: white;
+    transition: 0.3s;
+    font-size: 25px;
 }
 
 .navbar-brand:hover {
-    color: darkcyan;
+    color: bisque;
 }
 
-.nav-item > a {
-    color: black;
+body {
+    background-color: rgb(114, 96, 96);
 }
 
-.nav-item > a:hover {
-    color: darkcyan;
+main {
+    margin: 10px;
+    color: white;
+    background-color: rgb(136, 136, 136);
 }
 
-.container-biodata-diri {
-    width: 100%;
-    height: 100%;
+#profil-tab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.profil-kiri {
+    width: 30%;
+    height: auto;
     margin: auto;
-    margin-top: 15px;
-}
-
-.judul {
-    text-align: center;
-    font-weight: bolder;
-}
-
-.potret-wajah {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.potret-wajah > img {
-    width: 220px;
-    height: 280px;
     text-align: center;
 }
 
-.container-biodata-diri > p {
-    text-align: center;
+.profil-tengah {
+    width: 30%;
+    height: auto;
+    margin: 10px;
 }
 
-.list-biodata {
-    text-align: center;
-    list-style-position: inside;
+.profil-kanan {
+    width: 40%;
+    height: auto;
+    margin: 10px;
 }
 
-.container-biodata-diri > p > a {
+.profil-kiri > img {
+    width: 80%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#kodingan {
+    width: auto;
+    height: 80px;
+}
+
+#kodingan-tab {
+    padding-bottom: 20px;
+}
+
+.container-kodingan {
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.col > a {
     text-decoration: none;
-    color: rgb(54, 33, 105);
+}
+
+.col {
+    height: 100%;
     transition: 0.3s;
 }
 
-.container-biodata-diri > p > a:hover {
-    color: white;
-    transform: scale(1.03);
-    font-style:oblique;
-}
-
-.projek {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-.garis-spasi {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-width: 2px;
-    border-color: white;
-}
-
-.card-text {
-    color: black;
-    text-align: center;
-}
-
-.card > a {
-    text-decoration: none;
-}
-
-.card > a:hover {
-    color: white;
-}
-
-.card {
-    transition: 0.5s;
-}
-
-.card:hover {
-    background-color: aqua;
+.col:hover {
     transform: scale(1.05);
 }
 
+.card > img {
+    width: 60%;
+    margin: auto;
+}
+
+.spacing {
+    width: auto;
+    height: 65px;
+}
+
+.footer-tab {
+    padding: 20px;
+    text-align: center;
+}
+
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
   
 ::-webkit-scrollbar-track {
-    background-color: #ddd;
+    background-color: rgb(136, 136, 136);
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(2, 110, 110);
-}
-
-.footerr {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.belah-footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-kiri {
-    width: 50%;
-    height: 100%;
-}
-
-.footer-kiri > p {
-    text-align: center;
-    color: black;
-    margin: auto;
-}
-
-.footer-kanan {
-    width: 50%;
-    height: 100%;
-}
-
-.footer-kanan > p {
-    text-align: center;
-    color: black;
-    margin: auto;
+    background-color: bisque;
 }

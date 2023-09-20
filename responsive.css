@@ -1,0 +1,18 @@
+@media only screen and (max-width: 992px) {
+    #profil-tab {
+        flex-direction: column;
+    }
+    .profil-kiri {
+        width: auto;
+    }
+    .profil-kiri > img {
+        width: auto;
+        height: 400px;
+    }
+    .profil-tengah {
+        width: auto;
+    }
+    .profil-kanan {
+        width: auto;
+    }
+}

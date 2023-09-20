@@ -1,124 +1,179 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Profilku</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <style>
-    body {
-      font-family: 'Nunito', sans-serif;
-    }
-  </style>
-</head>
-<body class="antialiased">
-  <div class='back-to-top'>
-    <svg viewBox="0 0 20 20">
-      <polyline points="4 13 10 7 16 13"></polyline>
-    </svg>
-  </div>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Andreas</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#biodata-diri">Biodata Diri</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projek">Portofolio</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="container-biodata-diri" id="biodata-diri">
-    <hr class="garis-spasi">
-    <h1 class="judul">Biodata Diri</h1>
-    <hr class="garis-spasi">
-    <div class="potret-wajah">
-      <img src="wajah.png" alt="Potret Andreas Rona Nugraha">
-    </div>
-    <p>Nama saya Andreas Rona Nugraha</p>
-    <p>Lahir di Tanjungkarang, 11 Januari 2002</p>
-    <p>Berdomisili di Perum Bataranila, Hajimena, Natar, Lampung Selatan</p>
-    <p>Hubungi saya melalui email <a href="mailto:kanojowakawaii.arn@gmail.com">kanojowakawaii.arn@gmail.com</a></p>
-    <p>atau dapat melalui nomor berikut <a href="https://wa.me/6289514041912">089514041912</a></p>
-    <p>Riwayat Sekolah :</p>
-    <ul class="list-biodata">
-      <li>TK Sejahtera IV</li>
-      <li>SD Sejahtera IV</li>
-      <li>SMP Fransiskus Tanjungkarang</li>
-      <li>SMA Fransiskus Bandarlampung</li>
-    </ul>
-    <p>Daftar Mata Kuliah Favorit :</p>
-    <ul class="list-biodata">
-      <li>Algoritma dan Pemrograman</li>
-      <li>Pemrograman Web</li>
-      <li>Rekayasa Perangkat Lunak</li>
-      <li>Web Framework</li>
-    </ul>
-  </div>
-  <hr class="garis-spasi">
-  <div class="projek" id="projek">
-    <h1 class="judul">Portofolio</h1>
-    <hr class="garis-spasi">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <a href="https://genshinshare.github.io/" target="_blank">
-              <img
-                src="https://play-lh.googleusercontent.com/KqAl3vEXJBc_OqRgj-ZI5MrjA1C8iVXpswGhpTpeIJszsRHFKhpPgOqYI_TG7-lF1SE"
-                class="card-img-top" alt="icon genshin-impact">
-              <div class="card-body">
-                <h3 class="card-text">Genshin-Share</h3>
-                <p class="card-text">Web Anjuran Build Karakter dan Teamcomp Genshin Impact</p>
-              </div>
-            </a>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon">
+    <title>Andreas9911</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Andreas9911</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#profil">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kodingan">Kodingan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kontak
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mailto:kanojowakawaii.arn@gmail.com"><i class="fa-solid fa-envelope" style="color: #dee1e6;"></i>  Email</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://wa.me/6289514041912" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #dee1e6;"></i>  Whatsapp</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://github.com/genshinshare" target="_blank"><i class="fa-brands fa-github" style="color: #dee1e6;"></i>  Github</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <a href="https://github.com/andreas9911/permainanSuitSederhana" target="_blank">
-              <img src="https://raw.githubusercontent.com/andreas9911/foto/main/judulgame.png" class="card-img-top"
-                alt="logo permainan suit sederhana">
-              <div class="card-body">
-                <h3 class="card-text">Permainan Suit Sederhana</h3>
-                <p class="card-text">Dapat berjalan di Android</p>
+      </nav>
+    </header>
+    <div class="spacing" id="profil"></div>
+    <main class="container">
+      <div id="profil-tab">
+        <div class="profil-kiri">
+          <img src="assets/wajah.jpg" alt="Foto Andreas">
+        </div>
+        <div class="profil-tengah">
+          <small>Nama</small>
+          <p>Andreas Rona Nugraha</p>
+          <small>Tempat, Tanggal Lahir</small>
+          <p>Bandarlampung, 11 Januari 2002</p>
+          <small>Alamat</small>
+          <p>Perum Bataranila, Hajimena, Natar, Lampung Selatan</p>
+          <small>Status</small>
+          <p>Mahasiswa Teknik Informatika</p>
+          <small>Universitas</small>
+          <p>Universitas Lampung</p>
+          <small>Konsentrasi</small>
+          <p>Rekayasa Perangkat Lunak</p>
+        </div>
+        <div class="profil-kanan">
+          <small>Pengalaman</small>
+          <ul>
+            <li>Studi Independen Bersertifikat di Dicoding, dengan pembelajaran "Pengembangan Front-End Web dan Back-End".</li>
+            <li>KMMI dengan pembelajaran "Teknologi Multimedia".</li>
+          </ul>
+          <small>Bahasa Pemrograman yang pernah dipelajari</small>
+          <ul>
+            <li>C++</li>
+            <li>Java (Android)</li>
+            <li>Javascript</li>
+            <li>PHP</li>
+          </ul>
+          <small>Framework</small>
+          <ul>
+            <li>Laravel</li>
+            <li>Hapi</li>
+          </ul>
+        </div>
+      </div>
+      <div id="kodingan" style="margin: auto;">
+        <hr>
+      </div>
+      <div id="kodingan-tab">
+        <h2 style="text-align: center;">Kodingan</h2>
+        <br>
+        <div class="container text-center container-kodingan">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+              <div class="col">
+                <a href="https://github.com/genshinshare/GenshinBuild-Laravel" target="_blank">
+                  <div class="card mb-3">
+                    <img src="https://yoolk.ninja/wp-content/uploads/2021/08/Games-GenshinImpact-1024x1024.png" class="card-img-top" alt="GenshinBuild - Laravel">
+                    <div class="card-body">
+                      <h5 class="card-title">GenshinBuild - Laravel</h5>
+                      <p class="card-text">Web ini dibuat untuk pemenuhan UTS Mata Kuliah Web Framework. Web ini dapat menginput data ke database melalui form untuk menambahkan character dan buildnya setelah login sebagai admin.</p>
+                      <p class="card-text"><small class="text-body-secondary">Front-End Back-End</small></p>
+                    </div>
+                  </div>
+                </a>
               </div>
-            </a>
+              <div class="col">
+                <a href="https://github.com/hanntoo/PasarQ" target="_blank">
+                  <div class="card mb-3">
+                    <img src="assets/logo_pasarq.svg" class="card-img-top" alt="PasarQ">
+                    <div class="card-body">
+                      <h5 class="card-title">PasarQ</h5>
+                      <p class="card-text">Ini merupakan Project Capstone untuk tugas akhir dari Studi Independen Bersertifikat di Dicoding. Project Capstone ini dikerjakan berkelompok yang berisikan 4 orang, dimana saya bertugas untuk mengatur tampilan serta tabel database untuk Dashboard Admin dan Penjual.</p>
+                      <p class="card-text"><small class="text-body-secondary">Front-End Back-End</small></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/genshinshare/KatalogBukuAPI">
+                  <div class="card mb-3">
+                    <img src="assets/api.png" class="card-img-top" alt="Katalog Buku API">
+                    <div class="card-body">
+                      <h5 class="card-title">Katalog Buku API</h5>
+                      <p class="card-text">Project ini dibuat untuk tugas dari materi Back-End ketika Studi Independen Bersertifikat di Dicoding. Project ini adalah sebuah aplikasi server yang dibuat menggunakan framework Hapi.js. Aplikasi ini digunakan untuk mengelola daftar buku.</p>
+                      <p class="card-text"><small class="text-body-secondary">Back-End</small></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/genshinshare/KatalogRestoran">
+                  <div class="card mb-3">
+                    <img src="assets/restoran.png" class="card-img-top" alt="Katalog Restoran">
+                    <div class="card-body">
+                      <h5 class="card-title">Katalog Restoran</h5>
+                      <p class="card-text">Project ini dibuat untuk tugas dari materi Menjadi Front-End Web Developer Expert ketika Studi Independen Bersertifikat di Dicoding. Project ini berfokus pada konsumsi API, End to End Test, Integration Test, Image Optimization, Bundle Optimization, dan PWA.</p>
+                      <p class="card-text"><small class="text-body-secondary">Front-End</small></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/andreas9911/permainanSuitSederhana">
+                  <div class="card mb-3">
+                    <img src="https://raw.githubusercontent.com/andreas9911/permainanSuitSederhana/master/app/src/main/res/drawable/judulgame.png" style="padding-top: 20px; padding-bottom: 20px;" class="card-img-top" alt="Permainan Suit Sederhana">
+                    <div class="card-body">
+                      <h5 class="card-title">Permainan Suit Sederhana | Android</h5>
+                      <p class="card-text">Project ini dibuat untuk tugas akhir dari KMMI Teknologi Multimedia. Project ini dibangun menggunakan Android Studio dengan bahasa pemrograman Java. Project ini dikerjakan berkelompok, dimana saya lebih berfokus untuk mengerjakan tampilan nya.</p>
+                      <p class="card-text"><small class="text-body-secondary">Front-End</small></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/genshinshare/genshinshare.github.io" target="_blank">
+                  <div class="card mb-3">
+                    <img src="https://yoolk.ninja/wp-content/uploads/2021/08/Games-GenshinImpact-1024x1024.png" class="card-img-top" alt="genshinshare">
+                    <div class="card-body">
+                      <h5 class="card-title">GenshinShare</h5>
+                      <p class="card-text">Web ini dibuat untuk latihan saya dalam membuat Front-End web pada masa awal belajar pengembangan web.</p>
+                      <p class="card-text"><small class="text-body-secondary">Front-End</small></p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <a href="https://github.com/genshinshare/GenshinBuild-Laravel" target="_blank">
-              <img src="https://miro.medium.com/max/720/1*m0s2io11J82PR7miqan92w.webp" class="card-img-top"
-                alt="GenshinBuild - Web CRUD">
-              <div class="card-body">
-                <h3 class="card-text">GenshinBuild - Web CRUD</h3>
-                <p class="card-text">Menggunakan framework Laravel</p>
-              </div>
-            </a>
-          </div>
-        </div>
       </div>
-    </div>
-  </div>
-  <div class="footerr">
-    <div class="belah-footer">
-      <div class="footer-kiri">
-        <p>Andreas Rona Nugraha</p>
+    </main>
+    <footer>
+      <div class="bg-dark footer-tab" data-bs-theme="dark">
+        <p class="text-body-secondary">© 2023 | Andreas Rona Nugraha</p>
       </div>
-      <div class="footer-kanan">
-        <p>Web Framework | 2022</p>
-      </div>
-    </div>
-  </div>
-</html>
+    </footer>
+  </body>
+</html> 
